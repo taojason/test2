@@ -38,6 +38,7 @@ group :test do
 	gem 'rb-fsevent', :require => false
 	gem 'growl', '1.0.3'
 	gem 'guard-spork', '0.3.2'
+	# gem 'guard-spork', github: 'guard/guard-spork'
 	gem 'spork', '0.9.0'
 	# gem 'sqlite3'
 	# System-dependent gems
