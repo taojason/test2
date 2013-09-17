@@ -45,6 +45,7 @@ group :test do
 	gem 'spork', '0.9.0'
 	# gem 'sqlite3'
 	# System-dependent gems
+	gem 'factory_girl_rails', '1.4.0'
 end
 
 group :production do
