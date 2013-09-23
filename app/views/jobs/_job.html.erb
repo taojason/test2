@@ -6,4 +6,9 @@
 	<span class="timestamp">
 		Added <%= time_ago_in_words(job.created_at) %> ago.
 	</span>
+	<% if current_user?(job.user) %>
+		<%= link_to("delete", job, method: :delete, 
+									confirm: "Are you sure?",
+									title: job.title) %>
+	<% end %>
 </li>
