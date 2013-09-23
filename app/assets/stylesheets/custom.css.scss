@@ -179,3 +179,68 @@ input, textarea, select, .uneditable-input {
 		}
 	}
 }
+
+/* microposts */
+.microposts {
+	list-style: none;
+	margin: 10px 0 0 0;
+
+	li {
+		padding: 10px 0;
+		border-top: 1px solid #e8e8e8;
+	}
+}
+
+.content {
+	display: block;
+}
+
+.timestamp {
+	color: $grayLight;
+}
+
+.gravatar {
+	float: left;
+	margin-right: 10px;
+}
+
+aside {
+	textarea {
+		height: 100px;
+		margin-bottom: 5px;
+	}
+}
+
+/* jobs */
+.jobs {
+	list-style: none;
+	margin: 10px 0 0 0;
+
+	li {
+		padding: 10px 0;
+		border-top: 2px solid #e8e8e8;
+	}
+}
+
+.title {
+	display: block;
+	font-weight: bold;
+	font-size: 140%;
+}
+
+.company {
+	display: block;
+	font-size: 130%;
+	font-family: times;
+	font-style: italic;
+}
+
+.description {
+	font-size: 110%;
+	display: block;
+	font-family: times;
+
+	padding: 5px 0;
+	border-top: 1px;
+}
+

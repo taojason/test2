@@ -1,0 +1,9 @@
+<li>
+	<span class="title"><%= job.title %></span>
+	<span class="company"><%= job.company %></span>
+	
+	<span class="description"><%= job.description %></span>
+	<span class="timestamp">
+		Added <%= time_ago_in_words(job.created_at) %> ago.
+	</span>
+</li>
